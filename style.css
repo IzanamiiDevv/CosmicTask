@@ -215,3 +215,17 @@
   .solar #solarIcon {
     display: block;
   }
+
+.todo-box {
+  width: 200px;
+  height: auto;
+  background-color: #23232e;
+
+}
+
+.todo-container {
+  width: 100px;
+  height: auto;
+  background-color: #23232e;
+
+}

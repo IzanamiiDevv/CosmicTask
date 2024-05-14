@@ -1,16 +1,6 @@
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="main.js"></script>
-    <link rel="stylesheet" href="./assets/css/style.nav.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  
-  <body>
-    <nav class="navbar">
-      <ul class="navbar-nav">
+<link rel="stylesheet" href="./assets/css/style.nav.css" />
+<nav class="navbar">
+    <ul class="navbar-nav">
         <li class="logo">
           <a href="#" class="nav-link">
             <span class="link-text logo-text">Task</span>
@@ -63,9 +53,5 @@
             <span class="link-text">Exit</span>
           </a>
         </li>
-      </ul>
-    </nav>
-    <main>
-        
-    </main>
-  </body>
+    </ul>
+</nav>

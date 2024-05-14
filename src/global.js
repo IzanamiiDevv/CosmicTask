@@ -1,61 +1,10 @@
 function addContainer(name, bgcolor, txtcolor){
     const temp = `
     <div class="card" style="background: ${bgcolor};color:${txtcolor};">
-        <h2>${name}</h2>
-        <button>+</button>
-        <div class="">
-        </div>
+        <a href="#popup2">Hello</a>
     </div>
     `;
     document.getElementById('root').innerHTML += temp;
 }
 
-function addTask(){
-    const temp = `
-<div class="app" id="app">
-<form class="form" v-on:submit="addTodo">
-<input class="input form__input" v-model="inputVal"/>
-<button class="btn form__submit-btn" type="submit">Add</button>
-</form>
-<transition-group tag="ol" name="list" class="todo-list">
-<li
-  class="todo-list__item"
-  v-bind:class="{ complete: todo.complete }"
-  v-bind:key="index"
-  v-for="(todo, index) in filteredTodos">
-  <button
-    class="todo-list__item-content"
-    v-on:click="toggleTodo(todo)">
-    {{ todo.text }}
-  </button>
-  <button
-    class="btn todo-list__item-remove"
-    v-on:click="deleteTodo(index)">
-    <i class="fa" v-bind:class="[todo.complete ? 'fa-check' : 'fa-times']"></i>
-  </button>
-</li>
-</transition-group>
-<div class="filters">
-<button 
-  class="btn filters__btn filters__btn--all" 
-  v-on:click="filterTodos('all')">
-  All
-</button>
-<button 
-  class="btn filters__btn filters__btn--complete" 
-  v-on:click="filterTodos('complete')">
-  Complete
-</button>
-<button 
-  class="btn filters__btn filters__btn--incomplete" 
-  v-on:click="filterTodos('incomplete')">
-  Incomplete
-</button>
-</div>
-</div>
-    `;
-
-    document.getElementById('root').innerHTML += temp;
-}
-
-export { addContainer, addTask };
+export { addContainer };

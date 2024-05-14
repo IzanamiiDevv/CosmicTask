@@ -42,9 +42,9 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
-            <img src="./assets/svg/github.svg">
-            <span class="link-text">Github</span>
+          <a href="signup.html" class="nav-link">
+            <img src="./assets/svg/user.svg">
+            <span class="link-text">Login</span>
           </a>
         </li>
         <li class="nav-item" id="themeButton">

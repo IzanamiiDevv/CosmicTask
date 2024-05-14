@@ -30,13 +30,13 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="#" class="nav-link" id="home">
             <img src="./assets/svg/home.svg" alt="">
             <span class="link-text">Home</span>
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="#popup1" class="nav-link" id="new-item">
             <img src="./assets/svg/cube.svg" alt="">
             <span class="link-text">New Item</span>
           </a>

@@ -1,0 +1,102 @@
+.popup {
+    font-weight: 20px;
+    color:#fff;
+}
+
+#copyButton {
+    margin-top: 3vh;
+    position: relative;
+    left: calc(50% - 50px);
+    border-radius: 5px;
+    padding: 5px,5px,5px,5px;
+    border-style: none;
+    background-color: #1E1F24;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.content {
+    color: #333;
+}
+  
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid rgb(72, 56, 129);
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background: rgb(72, 56, 129);
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    color: #fff;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #23232e;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  .popup .close:hover {
+    color: rgb(72, 56, 129);
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    color: #333;
+  }
+  
+@media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+}
+
+.btn-container {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.popup-cont {
+    margin-top: 3vh;
+}

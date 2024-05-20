@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="./assets/css/style.nav.css" />
 <nav class="navbar">
     <ul class="navbar-nav">
         <li class="logo">

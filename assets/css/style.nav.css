@@ -3,16 +3,16 @@
     font-family: 'Open Sans';
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
-    --bg-primary: #573b8a;
+    --bg-primary: #23232e;
     --bg-secondary: #573b8a;
     --transition-speed: 600ms;
   }
   
   body {
-    color: black;
-    background-color: white;
+    color: var(--text-primary);
     margin: 0;
     padding: 0;
+    background-color: #23232e;
   }
   
   body::-webkit-scrollbar {
@@ -82,19 +82,6 @@
     width: 2rem;
     min-width: 2rem;
     margin: 0 1.5rem;
-  }
-  
-  .fa-primary {
-    color: #ff7eee;
-  }
-  
-  .fa-secondary {
-    color: #df49a6;
-  }
-  
-  .fa-primary,
-  .fa-secondary {
-    transition: var(--transition-speed);
   }
   
   .logo {

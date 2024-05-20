@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="./assets/css/style.popup.css" />
 <div id="popup1" class="overlay">
     <div class="popup">
         <h2>New Container</h2>

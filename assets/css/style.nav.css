@@ -8,13 +8,6 @@
     --transition-speed: 600ms;
   }
   
-  body {
-    color: var(--text-primary);
-    margin: 0;
-    padding: 0;
-    background-color: #23232e;
-  }
-  
   body::-webkit-scrollbar {
     width: 0.25rem;
   }
